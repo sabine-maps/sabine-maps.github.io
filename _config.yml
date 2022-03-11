@@ -25,6 +25,12 @@ baseurl: ""
 url: "https://sabine-maps.github.io/"
 twitter_username: SabineMaps
 github_username:  sabine-maps
+# Fields minima uses but aren't defaulted
+author: Sabine
+
+# New fields 
+# Add a copyright.
+copyright: Sabine-Maps
 
 # Build settings
 # theme: minima  # Removed minima theme as it is now a regular theme (not gem-based)
