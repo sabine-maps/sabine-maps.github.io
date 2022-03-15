@@ -20,7 +20,7 @@
 
 title: Sabine Maps
 # email: your-email@example.com
-description: Adventures in open source mapping.
+description:  Adventures in open source mapping.
 baseurl: ""
 url: "https://sabine-maps.github.io/"
 twitter_username: SabineMaps
@@ -33,9 +33,14 @@ author: Sabine
 copyright: Sabine-Maps
 
 # Build settings
-# theme: minima  # Removed minima theme as it is now a regular theme (not gem-based)
+theme: minima 
 plugins:
-  - jekyll-feed
+  - jekyll-feed 
+
+minima:
+  date_format: '%b %-d, %Y'
+
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
