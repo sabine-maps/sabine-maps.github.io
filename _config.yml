@@ -41,6 +41,12 @@ theme: minima
 plugins:
   - jekyll-feed 
 
+# Archives
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
+
 minima:
   date_format: '%b %-d, %Y'
 
