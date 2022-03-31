@@ -7,4 +7,5 @@ tags:
   - jekyll
   - blog
 permalink: /:title
+---
 Coming soon :)
