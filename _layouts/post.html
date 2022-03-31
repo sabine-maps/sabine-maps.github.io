@@ -22,12 +22,12 @@ layout: default
   <hr style="height:1px;border-width:0;color:rgba(153, 153, 153, 0.4);background-color:rgb(153, 153, 153, 0.4)">
 
   Tags:
-  <span>[
+  <span>
     {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
       <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
     {% endfor %}
-  ]</span>
+  </span>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
